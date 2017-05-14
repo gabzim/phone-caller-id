@@ -1,0 +1,60 @@
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docs
+js.docs
+api.docs
+doc/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# testing
+coverage
+$CIRCLE_TEST_REPORTS
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency and build directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+#ide and os
+.idea
+.project
+.DS_STORE
+
+#compressed
+*.zip
+
+# Uploaded and temp files
+temp/*
+!temp/.gitkeep
+
+uploads/*/*
+!uploads/.gitkeep
+!uploads/*/.gitkeep
+configs/certs
+
+#Lambdas
+lambda/node_modules/
+lambda/.serverless/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
