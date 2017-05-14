@@ -1,6 +1,6 @@
 {
   "name": "phone-caller-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kjepper/CallerPi.git"
+    "url": "git@github.com:arg20/phone-caller-id.git"
   },
-  "author": "",
+  "author": "Gabriel Zimmermann",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kjepper/CallerPi/issues"
+    "url": "https://github.com/arg20/phone-caller-id/issues"
   },
-  "homepage": "https://github.com/kjepper/CallerPi#readme",
+  "homepage": "https://github.com/arg20/phone-caller-id#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
     "moment": "^2.18.1",
